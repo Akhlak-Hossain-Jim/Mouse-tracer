@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>trace the mouse</title>
+    <script src="tracker-script.js" async></script>
+    <style>
+    body {
+        width: 100vw;
+        height: 100vh;
+        background-color: black;
+        overflow: hidden;
+    }
+    .circle, .circle2 {
+        position: absolute;
+        top: 1px;
+        width: 80px;
+        height: 80px;
+        color: transparent;
+        background-color: #e7d6d6;
+        /* border: 2px solid rgb(226, 203, 203); */
+        border-radius: 50%;
+        /* box-shadow: 0 0 10px #e7d6d6; */
+        opacity: 2;
+        box-shadow: inset 5px 12px 20px 0px #e7e2b0, 
+        inset -5px -12px 20px 0px #e7e2b0, 
+        inset 10px -5px 20px 0px #e7e2b0, 
+        inset -10px 5px 20px 0px #e7e2b0;
+    }
+    </style>
+</head>
+
+<body>
+    <div class="circle"></div>
+    <div class="circle2"></div>
+</body>
+
+</html>
